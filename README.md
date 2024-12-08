@@ -97,10 +97,41 @@ pip install -r requirements.txt
 - **onehot_encoder_geo.pkl**: Trained `OneHotEncoder` for the Geography column.
 - **scaler.pkl**: Trained `StandardScaler` for numerical features.
 
+# Model Architecture and Performance
+
+This report provides an overview of the ANN architecture used for customer churn prediction and summarizes its performance metrics.
+
+## Model Architecture
+
+The model is a simple feedforward neural network (ANN) consisting of three layers:
+
+1. **First Hidden Layer**  
+   - **Type:** Dense (Fully Connected)  
+   - **Neurons:** 64  
+   - **Activation:** ReLU  
+   - **Role:**  
+     The first hidden layer receives the input features. Using the ReLU activation function allows the model to capture non-linear relationships efficiently and generally improves training stability.
+
+2. **Second Hidden Layer**  
+   - **Type:** Dense (Fully Connected)  
+   - **Neurons:** 32  
+   - **Activation:** ReLU  
+   - **Role:**  
+     The second hidden layer further transforms the representation learned by the first layer. By using fewer neurons than the first layer, it encourages the model to learn more compact patterns, potentially improving generalization.
+
+3. **Output Layer**  
+   - **Type:** Dense (Fully Connected)  
+   - **Neurons:** 1  
+   - **Activation:** Sigmoid  
+   - **Role:**  
+     The output layer consists of a single neuron with a sigmoid activation function, producing a probability for the binary classification task (churn or not churn).
+
 ## Model Performance
 
-- The performance can be evaluated through accuracy on the test dataset.
-- The code snippet shows how to print the final test accuracy. Further metrics (precision, recall, F1-score, AUC) can be computed as needed.
+- **Accuracy:** **86.10%**  
+  The model achieves an accuracy of about 86.10% on the test set.
+- **Loss:** **0.33**  
+  The model’s loss (Binary Crossentropy) on the test set is 0.33. 
 
 ## Customization
 
