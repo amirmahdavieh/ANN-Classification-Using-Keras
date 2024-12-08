@@ -133,12 +133,6 @@ The model is a simple feedforward neural network (ANN) consisting of three layer
 - **Loss:** **0.33**  
   The model’s loss (Binary Crossentropy) on the test set is 0.33. 
 
-## Customization
-
-- Modify the architecture of the neural network as needed.
-- Adjust hyperparameters (e.g., learning rate, batch size, epochs) to improve performance.
-- Add additional metrics or visualization tools (e.g., confusion matrix, ROC curve).
-
 ## Acknowledgments
 
 - Dataset: The dataset used is a popular example dataset for churn modeling and is widely available online.
