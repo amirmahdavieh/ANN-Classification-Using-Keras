@@ -112,9 +112,3 @@ pip install -r requirements.txt
 
 - Dataset: The dataset used is a popular example dataset for churn modeling and is widely available online.
 - Tools: TensorFlow, Keras, scikit-learn, Pandas, Numpy, Streamlit.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-Feel free to modify and adapt the code for your own use cases.
