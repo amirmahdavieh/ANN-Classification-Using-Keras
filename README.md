@@ -133,10 +133,6 @@ The model is a simple feedforward neural network (ANN) consisting of three layer
 - **Loss:** **0.33**  
   The model’s loss (Binary Crossentropy) on the test set is 0.33. 
 
-## Acknowledgments
-
-- Dataset: The dataset used is a popular example dataset for churn modeling and is widely available online.
-- Tools: TensorFlow, Keras, scikit-learn, Pandas, Numpy, Streamlit.
-
+## Application User Interface
 
 ![app_screen](https://github.com/user-attachments/assets/79ed7d4f-2822-49ad-9503-1b0310653032)
